@@ -148,11 +148,17 @@ Restart Logstash.
 
 Using Jenkins "Plugin Manager" please install Logstash plugin. (More information about Jenkins Logstash Plugin: https://wiki.jenkins.io/display/JENKINS/Logstash+Plugin )
 
+![Install Plugin](https://raw.githubusercontent.com/levkov/jenkins/master/1.PNG)
+
 In configuration section of Jenkins server, go to Logstash section and enable "Enable sending logs to an Indexer" option.  
 Set Indexer Type  -> "Logstash TCP".  
-Set your Logstash	Host name.
+Set your Logstash	Host name.  
 Set same port as in Logstash TCP plugin configuration. (In our example it's 6044).
+
+![Configuration](https://raw.githubusercontent.com/levkov/jenkins/master/2.PNG)
 
 Inside Freestyle job, please go to "Post-build Actions" section and choose "Send console logs to Logstash" option.
 In the case of Pipeline jobs and Pipeline Script usage -  please reffer to examples in Logstash plugin documentation: https://wiki.jenkins.io/display/JENKINS/Logstash+Plugin
+
+![Post Build](https://raw.githubusercontent.com/levkov/jenkins/master/3.PNG)
 
