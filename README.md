@@ -54,9 +54,6 @@ output {
             "SUB_SYSTEM" => "Logstash subsystem"
         } 
         log_key_name => "data"
-        timestamp_key_name => "YOUR_TIMESTAMP_FIELD"
-
-
         is_json => true
     }
 }  
@@ -66,8 +63,6 @@ TCP port can be changed to other port number.
 
 **Output**  
 The first key (config_params) is mandatory while the other two are optional. 
-
-**Timestamp:**  Coralogix automatically generates the timestamp based on the log arrival time.  If you rather use your own timestamp, use the “timestamp_key_name” to specify your timestamp field, and it will be read from your log. 
 
 ```json
 { 
