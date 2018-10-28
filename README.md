@@ -9,6 +9,7 @@ Coralogix provides integration with Jenkins using Logstash, so you can send your
 2. Usage
 3. Installation
 4. Configuration
+5. Jenkins Configuration
 
 ### Prerequisites
 Have Logstash installed, for more information on how to install: https://www.elastic.co/guide/en/logstash/current/installing-logstash.html
