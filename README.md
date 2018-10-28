@@ -161,4 +161,3 @@ Inside Freestyle job, please go to "Post-build Actions" section and choose "Send
 In the case of Pipeline jobs and Pipeline Script usage -  please reffer to examples in Logstash plugin documentation: https://wiki.jenkins.io/display/JENKINS/Logstash+Plugin
 
 ![Post Build](https://raw.githubusercontent.com/levkov/jenkins/master/3.PNG)
-
