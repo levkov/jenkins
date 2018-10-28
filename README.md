@@ -53,7 +53,7 @@ output {
             "APP_NAME" => "Logstash Tester"
             "SUB_SYSTEM" => "Logstash subsystem"
         } 
-        log_key_name => "message"
+        log_key_name => "data"
         timestamp_key_name => "YOUR_TIMESTAMP_FIELD"
 
 
