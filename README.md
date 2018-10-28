@@ -21,3 +21,12 @@ Have Logstash installed, for more information on how to install: https://www.ela
 
 **SubSystem Name** – Your application probably has multiple subsystems, for example: Backend servers, Middleware, Frontend servers etc. in order to help you examine the data you need, inserting the subsystem parameter is vital.
 
+### Installation
+
+```bash
+logstash-plugin install logstash-output-coralogix_logger
+```
+
+If you are not sure where logstash-plugin is located, you can check here:  
+https://www.elastic.co/guide/en/logstash/current/dir-layout.html
+
